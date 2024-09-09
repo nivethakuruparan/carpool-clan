@@ -14,12 +14,9 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.Carpoolclan.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <!-- SplashScreen -->
+    <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
     </style>
-
-    <style name="Theme.Carpoolclan.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.Carpoolclan.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
